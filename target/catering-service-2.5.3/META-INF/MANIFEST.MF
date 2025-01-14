@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: afrail
+Build-Jdk: 11.0.25
+Implementation-Title: catering-service
+Implementation-Version: 2.5.3
+Implementation-Vendor-Id: org.springframework.boot
+Main-Class: ${start-class}
+
