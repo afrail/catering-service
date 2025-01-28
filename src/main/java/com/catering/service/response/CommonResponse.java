@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
  */
 
 @Data
-@Component
 public class CommonResponse implements Serializable{
 	
 	private static final long serialVersionUID = 1L;

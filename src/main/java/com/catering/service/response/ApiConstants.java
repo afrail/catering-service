@@ -17,7 +17,7 @@ public interface ApiConstants {
 
     // model URL
     String AUTH_END_POINT               = PRIVATE_ENDPOINT + "auth/";
-    String PRODUCT_END_POINT               = PRIVATE_ENDPOINT + "product/";
+    String SYSTEM_ADMIN_END_USER              = PRIVATE_ENDPOINT + "system-admin/";
 
 
     String SAVE_ALL                  = "/save-all";

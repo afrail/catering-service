@@ -38,9 +38,9 @@ import java.util.Set;
 
 /**
  * @version 1.0.0
- * @Project catering-service-base-sceleton
+ * @Project catering-service
  * @Author Afrail Hossain
- * @Since 1 January 2023
+ * @Since 27 January 2025
  */
 
 @AllArgsConstructor
@@ -96,7 +96,7 @@ public class AuthController {
 
 	}
 
-	@PostMapping("/signup")
+/*	@PostMapping("/signup")
 	public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
 		if (userRepository.existsByUsername(signUpRequest.getUsername())) {
 			return ResponseEntity.badRequest().body(new MessageResponse("Error: Username is already taken!"));
@@ -129,7 +129,7 @@ public class AuthController {
 
 
 		return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
-	}
+	}*/
 	
 
 	

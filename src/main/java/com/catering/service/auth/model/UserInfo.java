@@ -68,6 +68,12 @@ public class UserInfo implements Serializable {
 
 	@Column(name = "IS_ACCOUNT_LOCKED", columnDefinition = "boolean default false")
 	private Boolean accountLocked = false;
+
+	@Column(name = "ENTRY_USER_ID")
+	private Integer entryUserId;
+
+	@Column(name = "UPDATE_USER_ID")
+	private Integer updateUserId;
 	
 	
 }
